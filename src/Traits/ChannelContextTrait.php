@@ -10,7 +10,7 @@ use Sylius\Component\Channel\Context\ChannelContextInterface;
  * Class ChannelContextTrait.
  * @package Latelier22\SyliusVitrineModePlugin\Traits
  *
- * @author  Philippe Vesin <pve.asdoria@gmail.com>
+ * @author  Philippe Vesin <latelier.cyrille@gmail.com>
  */
 trait ChannelContextTrait
 {

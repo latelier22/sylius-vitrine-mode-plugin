@@ -25,7 +25,7 @@ use Symfony\Component\Form\FormBuilderInterface;
  * Class ChannelTypeExtension
  * @package Latelier22\SyliusVitrineModePlugin\Form\Extension
  *
- * @author  Philippe Vesin <pve.asdoria@gmail.com>
+ * @author  Philippe Vesin <latelier.cyrille@gmail.com>
  */
 class ChannelTypeExtension extends AbstractTypeExtension
 {
@@ -35,7 +35,7 @@ class ChannelTypeExtension extends AbstractTypeExtension
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder->add('catalogMode', CheckboxType::class, [
-            'label'  => 'asdoria_catalog_mode.form.channel.catalog_mode',
+            'label'  => 'latelier22_catalog_mode.form.channel.catalog_mode',
             'required'  =>  false,
         ]);
     }

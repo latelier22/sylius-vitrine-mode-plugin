@@ -26,7 +26,7 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
  * Class Latelier22SyliusVitrineModeExtension
  * @package Latelier22\SyliusVitrineModePlugin\DependencyInjection
  *
- * @author  Philippe Vesin <pve.asdoria@gmail.com>
+ * @author  Philippe Vesin <latelier.cyrille@gmail.com>
  */
 final class Latelier22SyliusVitrineModeExtension  extends AbstractResourceExtension implements PrependExtensionInterface, ExtensionInterface
 {

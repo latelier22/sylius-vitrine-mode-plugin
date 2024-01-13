@@ -10,7 +10,7 @@ use Latelier22\SyliusVitrineModePlugin\Checker\VitrineModeCheckerInterface;
  * Class VitrineModeCheckerTrait.
  * @package Latelier22\SyliusVitrineModePlugin\Traits
  *
- * @author  Philippe Vesin <pve.asdoria@gmail.com>
+ * @author  Philippe Vesin <latelier.cyrille@gmail.com>
  */
 trait VitrineModeCheckerTrait
 {

@@ -20,7 +20,7 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
  * Class Configuration
  * @package Latelier22\SyliusVitrineModePlugin\DependencyInjection
  *
- * @author  Philippe Vesin <pve.asdoria@gmail.com> */
+ * @author  Philippe Vesin <latelier.cyrille@gmail.com> */
 final class Configuration implements ConfigurationInterface
 {
     /**
@@ -28,7 +28,7 @@ final class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder(): TreeBuilder
     {
-        $treeBuilder = new TreeBuilder('asdoria_catalog_mode');
+        $treeBuilder = new TreeBuilder('latelier22_catalog_mode');
         $rootNode = $treeBuilder->getRootNode();
 
         return $treeBuilder;

@@ -15,7 +15,7 @@ namespace Latelier22\SyliusVitrineModePlugin\Checker;
 /**
  * Class VitrineModeCheckerInterface.
  *
- * @author Philippe Vesin <pve.asdoria@gmail.com>
+ * @author Philippe Vesin <latelier.cyrille@gmail.com>
  */
 interface VitrineModeCheckerInterface
 {

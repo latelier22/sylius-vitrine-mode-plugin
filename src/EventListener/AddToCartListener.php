@@ -19,7 +19,7 @@ use Symfony\Contracts\Translation\TranslatorInterface;
 /**
  * Class AccessCheckListener.
  *
- * @author Philippe Vesin <pve.asdoria@gmail.com>
+ * @author Philippe Vesin <latelier.cyrille@gmail.com>
  */
 class AddToCartListener
 {
@@ -36,6 +36,6 @@ class AddToCartListener
     {
        if (!$this->getVitrineModeChecker()->checker()) return;
 
-       $event->stop($this->translator->trans('asdoria_catalog_mode.channel.catalog_mode_error', 'flashs'));
+       $event->stop($this->translator->trans('latelier22_catalog_mode.channel.catalog_mode_error', 'flashs'));
     }
 }

@@ -26,7 +26,7 @@ use Symfony\Component\Routing\RequestContext;
  * Class CheckoutStateUrlGenerator
  * @package Latelier22\SyliusVitrineModePlugin\Checkout
  *
- * @author  Philippe Vesin <pve.asdoria@gmail.com>
+ * @author  Philippe Vesin <latelier.cyrille@gmail.com>
  */
 class CheckoutStateUrlGenerator implements CheckoutStateUrlGeneratorInterface
 {

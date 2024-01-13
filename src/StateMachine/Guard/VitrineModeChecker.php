@@ -20,7 +20,7 @@ use Sylius\Component\Core\Model\OrderInterface;
 /**
  * Class VitrineModeChecker.
  *
- * @author Philippe Vesin <pve.asdoria@gmail.com>
+ * @author Philippe Vesin <latelier.cyrille@gmail.com>
  */
 class VitrineModeChecker
 {

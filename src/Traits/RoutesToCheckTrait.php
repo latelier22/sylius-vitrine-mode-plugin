@@ -8,7 +8,7 @@ namespace Latelier22\SyliusVitrineModePlugin\Traits;
  * Class RoutesToCheckTrait.
  * @package Latelier22\SyliusVitrineModePlugin\Traits
  *
- * @author  Philippe Vesin <pve.asdoria@gmail.com>
+ * @author  Philippe Vesin <latelier.cyrille@gmail.com>
  */
 trait RoutesToCheckTrait
 {

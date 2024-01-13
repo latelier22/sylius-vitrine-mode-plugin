@@ -23,7 +23,7 @@ use Webmozart\Assert\Assert;
  * Class VitrineModeOrderItemValidator.
  * @package Latelier22\SyliusVitrineModePlugin\Constraints
  *
- * @author  Philippe Vesin <pve.asdoria@gmail.com>
+ * @author  Philippe Vesin <latelier.cyrille@gmail.com>
  */
 class VitrineModeOrderItemValidator extends ConstraintValidator
 {

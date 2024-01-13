@@ -18,16 +18,16 @@ use Symfony\Component\Validator\Constraint;
 /**
  * Class VitrineModeOrderItem.
  *
- * @author Philippe Vesin <pve.asdoria@gmail.com>
+ * @author Philippe Vesin <latelier.cyrille@gmail.com>
  */
 class VitrineModeOrderItem extends Constraint
 {
-    public $message = 'asdoria_catalog_mode.order_item.catalog_mode.enabled';
+    public $message = 'latelier22_catalog_mode.order_item.catalog_mode.enabled';
 
 
     public function validatedBy(): string
     {
-        return 'asdoria_catalog_mode_is_enabled';
+        return 'latelier22_catalog_mode_is_enabled';
     }
     
     /**
