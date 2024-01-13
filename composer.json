@@ -20,7 +20,13 @@
         "sylius/sylius": "^1.12"
     },
 
-    
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/latelier22/sylius-vitrine-mode-plugin.git"
+        }
+    ],
+
     "require-dev": {
         "behat/behat": "^3.6.1",
         "behat/mink-selenium2-driver": "^1.4",
