@@ -3,15 +3,15 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the Asdoria Package.
+ * This file is part of the Latelier22 Package.
  *
- * (c) Asdoria .
+ * (c) Latelier22 .
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Asdoria\SyliusVitrineModePlugin\DependencyInjection;
+namespace Latelier22\SyliusVitrineModePlugin\DependencyInjection;
 
 use Sylius\Bundle\CoreBundle\DependencyInjection\PrependDoctrineMigrationsTrait;
 use Sylius\Bundle\ResourceBundle\DependencyInjection\Extension\AbstractResourceExtension;
@@ -23,12 +23,12 @@ use Symfony\Component\DependencyInjection\Extension\PrependExtensionInterface;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
 /**
- * Class AsdoriaSyliusVitrineModeExtension
- * @package Asdoria\SyliusVitrineModePlugin\DependencyInjection
+ * Class Latelier22SyliusVitrineModeExtension
+ * @package Latelier22\SyliusVitrineModePlugin\DependencyInjection
  *
  * @author  Philippe Vesin <pve.asdoria@gmail.com>
  */
-final class AsdoriaSyliusVitrineModeExtension  extends AbstractResourceExtension implements PrependExtensionInterface, ExtensionInterface
+final class Latelier22SyliusVitrineModeExtension  extends AbstractResourceExtension implements PrependExtensionInterface, ExtensionInterface
 {
     use PrependDoctrineMigrationsTrait;
 
@@ -59,7 +59,7 @@ final class AsdoriaSyliusVitrineModeExtension  extends AbstractResourceExtension
      */
     protected function getMigrationsNamespace(): string
     {
-        return 'Asdoria\SyliusVitrineModePlugin\Migrations';
+        return 'Latelier22\SyliusVitrineModePlugin\Migrations';
     }
 
     /**
@@ -67,7 +67,7 @@ final class AsdoriaSyliusVitrineModeExtension  extends AbstractResourceExtension
      */
     protected function getMigrationsDirectory(): string
     {
-        return '@AsdoriaSyliusVitrineModePlugin/src/Migrations';
+        return '@Latelier22SyliusVitrineModePlugin/src/Migrations';
     }
 
     /**
