@@ -1,0 +1,6 @@
+services:
+    Asdoria\SyliusVitrineModePlugin\Validator\Constraints\VitrineModeOrderItemValidator:
+        calls:
+            - [setVitrineModeChecker, ['@Asdoria\SyliusVitrineModePlugin\Checker\VitrineModeChecker']]
+        tags:
+            - { name: 'validator.constraint_validator', alias: 'asdoria_catalog_mode_is_enabled' }

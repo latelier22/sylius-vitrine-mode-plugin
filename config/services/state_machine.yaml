@@ -1,0 +1,6 @@
+services:
+    asdoria_catalog_mode.state_machine.guard.catalog_mode_checker:
+        public: true
+        class: Asdoria\SyliusVitrineModePlugin\StateMachine\Guard\VitrineModeChecker
+        calls:
+            - ['setVitrineModeChecker', ['@Asdoria\SyliusVitrineModePlugin\Checker\VitrineModeChecker']]

@@ -1,0 +1,3 @@
+asdoria_catalog_mode:
+    channel:
+        catalog_mode_error: cannot continue channel is in catalog mode

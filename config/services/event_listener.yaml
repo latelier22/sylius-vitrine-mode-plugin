@@ -1,0 +1,8 @@
+services:
+    Asdoria\SyliusVitrineModePlugin\EventListener\AddToCartListener:
+        arguments:
+            $translator: '@translator'
+        calls:
+            - [ 'setVitrineModeChecker', [ '@Asdoria\SyliusVitrineModePlugin\Checker\VitrineModeChecker' ] ]
+        tags:
+            - { name: kernel.event_listener, event: 'sylius.order_item.pre_add', method: onCheck }

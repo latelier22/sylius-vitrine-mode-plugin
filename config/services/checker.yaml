@@ -1,0 +1,4 @@
+services:
+    Asdoria\SyliusVitrineModePlugin\Checker\VitrineModeChecker:
+        calls:
+            - [ setChannelContext, ['@sylius.context.channel']]

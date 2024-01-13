@@ -1,0 +1,14 @@
+winzou_state_machine:
+    sylius_order_checkout:
+        callbacks:
+            guard:
+                catalog_mode_checker:
+                    on: ["address", "skip_shipping", "select_shipping", "skip_payment", "select_payment", "complete"]
+                    do: ["@asdoria_catalog_mode.state_machine.guard.catalog_mode_checker", "disabledVitrineMode"]
+sylius_ui:
+    events:
+        sylius.admin.channel.form.second_column_content:
+            blocks:
+                asdoria_catalog_mode_channel:
+                    template: "@AsdoriaSyliusVitrineModePlugin/Admin/Channel/_catalogMode.html.twig"
+                    priority: 10
