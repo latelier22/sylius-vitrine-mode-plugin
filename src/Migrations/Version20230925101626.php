@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Asdoria\SyliusVitrineModePlugin\Migrations;
+namespace Latelier22\SyliusVitrineModePlugin\Migrations;
 
 use Doctrine\DBAL\Schema\Schema;
 use Doctrine\Migrations\AbstractMigration;
