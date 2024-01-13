@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Asdoria\SyliusVitrineModePlugin\Traits;
+namespace Latelier22\SyliusVitrineModePlugin\Traits;
 
 use Sylius\Component\Channel\Context\ChannelContextInterface;
 
 /**
  * Class ChannelContextTrait.
- * @package Asdoria\SyliusVitrineModePlugin\Traits
+ * @package Latelier22\SyliusVitrineModePlugin\Traits
  *
  * @author  Philippe Vesin <pve.asdoria@gmail.com>
  */

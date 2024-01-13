@@ -3,25 +3,25 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the Asdoria Package.
+ * This file is part of the Latelier22 Package.
  *
- * (c) Asdoria .
+ * (c) Latelier22 .
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Asdoria\SyliusVitrineModePlugin\Validator\Constraints;
+namespace Latelier22\SyliusVitrineModePlugin\Validator\Constraints;
 
-use Asdoria\SyliusVitrineModePlugin\Checkout\VitrineModeAwareInterface;
-use Asdoria\SyliusVitrineModePlugin\Traits\VitrineModeCheckerTrait;
+use Latelier22\SyliusVitrineModePlugin\Checkout\VitrineModeAwareInterface;
+use Latelier22\SyliusVitrineModePlugin\Traits\VitrineModeCheckerTrait;
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
 use Webmozart\Assert\Assert;
 
 /**
  * Class VitrineModeOrderItemValidator.
- * @package Asdoria\SyliusVitrineModePlugin\Constraints
+ * @package Latelier22\SyliusVitrineModePlugin\Constraints
  *
  * @author  Philippe Vesin <pve.asdoria@gmail.com>
  */

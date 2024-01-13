@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of the Asdoria Package.
+ * This file is part of the Latelier22 Package.
  *
- * (c) Asdoria .
+ * (c) Latelier22 .
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Asdoria\SyliusVitrineModePlugin\Form\Extension;
+namespace Latelier22\SyliusVitrineModePlugin\Form\Extension;
 
 
 use Doctrine\ORM\EntityRepository;
@@ -23,7 +23,7 @@ use Symfony\Component\Form\FormBuilderInterface;
 
 /**
  * Class ChannelTypeExtension
- * @package Asdoria\SyliusVitrineModePlugin\Form\Extension
+ * @package Latelier22\SyliusVitrineModePlugin\Form\Extension
  *
  * @author  Philippe Vesin <pve.asdoria@gmail.com>
  */

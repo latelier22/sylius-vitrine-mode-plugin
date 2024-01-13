@@ -3,18 +3,18 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the Asdoria Package.
+ * This file is part of the Latelier22 Package.
  *
- * (c) Asdoria .
+ * (c) Latelier22 .
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Asdoria\SyliusVitrineModePlugin\Checkout;
+namespace Latelier22\SyliusVitrineModePlugin\Checkout;
 
-use Asdoria\SyliusVitrineModePlugin\Checker\VitrineModeCheckerInterface;
-use Asdoria\SyliusVitrineModePlugin\Traits\VitrineModeCheckerTrait;
+use Latelier22\SyliusVitrineModePlugin\Checker\VitrineModeCheckerInterface;
+use Latelier22\SyliusVitrineModePlugin\Traits\VitrineModeCheckerTrait;
 use Sylius\Bundle\CoreBundle\Checkout\CheckoutStateUrlGeneratorInterface;
 use Sylius\Component\Channel\Context\ChannelContextInterface;
 use Sylius\Component\Core\Model\OrderInterface;
@@ -24,7 +24,7 @@ use Symfony\Component\Routing\RequestContext;
 
 /**
  * Class CheckoutStateUrlGenerator
- * @package Asdoria\SyliusVitrineModePlugin\Checkout
+ * @package Latelier22\SyliusVitrineModePlugin\Checkout
  *
  * @author  Philippe Vesin <pve.asdoria@gmail.com>
  */

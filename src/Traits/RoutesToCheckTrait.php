@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Asdoria\SyliusVitrineModePlugin\Traits;
+namespace Latelier22\SyliusVitrineModePlugin\Traits;
 
 /**
  * Class RoutesToCheckTrait.
- * @package Asdoria\SyliusVitrineModePlugin\Traits
+ * @package Latelier22\SyliusVitrineModePlugin\Traits
  *
  * @author  Philippe Vesin <pve.asdoria@gmail.com>
  */
