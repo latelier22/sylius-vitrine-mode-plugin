@@ -22,12 +22,12 @@ use Symfony\Component\Validator\Constraint;
  */
 class VitrineModeOrderItem extends Constraint
 {
-    public $message = 'latelier22_catalog_mode.order_item.catalog_mode.enabled';
+    public $message = 'latelier22_vitrine_mode.order_item.vitrine_mode.enabled';
 
 
     public function validatedBy(): string
     {
-        return 'latelier22_catalog_mode_is_enabled';
+        return 'latelier22_vitrine_mode_is_enabled';
     }
     
     /**

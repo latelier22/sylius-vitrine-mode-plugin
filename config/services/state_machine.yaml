@@ -1,5 +1,5 @@
 services:
-    asdoria_catalog_mode.state_machine.guard.catalog_mode_checker:
+    latelier22_vitrine_mode.state_machine.guard.vitrine_mode_checker:
         public: true
         class: Latelier22\SyliusVitrineModePlugin\StateMachine\Guard\VitrineModeChecker
         calls:

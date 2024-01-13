@@ -3,4 +3,4 @@ services:
         calls:
             - [setVitrineModeChecker, ['@Latelier22\SyliusVitrineModePlugin\Checker\VitrineModeChecker']]
         tags:
-            - { name: 'validator.constraint_validator', alias: 'asdoria_catalog_mode_is_enabled' }
+            - { name: 'validator.constraint_validator', alias: 'latelier22_vitrine_mode_is_enabled' }

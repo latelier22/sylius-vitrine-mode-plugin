@@ -27,7 +27,7 @@ interface VitrineModeAwareInterface
     public function isVitrineMode(): bool;
 
     /**
-     * @param bool $catalogMode
+     * @param bool $vitrineMode
      */
-    public function setVitrineMode(bool $catalogMode): void;
+    public function setVitrineMode(bool $vitrineMode): void;
 }

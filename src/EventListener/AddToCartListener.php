@@ -36,6 +36,6 @@ class AddToCartListener
     {
        if (!$this->getVitrineModeChecker()->checker()) return;
 
-       $event->stop($this->translator->trans('latelier22_catalog_mode.channel.catalog_mode_error', 'flashs'));
+       $event->stop($this->translator->trans('latelier22_vitrine_mode.channel.vitrine_mode_error', 'flashs'));
     }
 }

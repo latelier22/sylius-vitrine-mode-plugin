@@ -1,8 +1,8 @@
 services:
-    asdoria_catalog_mode.router.checkout_state:
+    latelier22_vitrine_mode.router.checkout_state:
         class: Latelier22\SyliusVitrineModePlugin\Checkout\CheckoutStateUrlGenerator
         decorates: sylius.router.checkout_state
         arguments:
-            $inner: '@asdoria_catalog_mode.router.checkout_state.inner'
+            $inner: '@latelier22_vitrine_mode.router.checkout_state.inner'
         calls:
             - ['setVitrineModeChecker', ['@Latelier22\SyliusVitrineModePlugin\Checker\VitrineModeChecker']]

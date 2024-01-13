@@ -23,25 +23,25 @@ use Doctrine\ORM\Mapping as ORM;
 trait VitrineModeTrait
 {
     /**
-     * @ORM\Column(name="catalog_mode", type="boolean", nullable=false, options={"default" : false})
+     * @ORM\Column(name="vitrine_mode", type="boolean", nullable=false, options={"default" : false})
      */
-    protected bool $catalogMode = false;
+    protected bool $vitrineMode = false;
 
     /**
      * @return bool
      */
     public function isVitrineMode(): bool
     {
-        return $this->catalogMode;
+        return $this->vitrineMode;
     }
 
     /**
-     * @param bool $catalogMode
+     * @param bool $vitrineMode
      *
      * @return void
      */
-    public function setVitrineMode(bool $catalogMode): void
+    public function setVitrineMode(bool $vitrineMode): void
     {
-        $this->catalogMode = $catalogMode;
+        $this->vitrineMode = $vitrineMode;
     }
 }

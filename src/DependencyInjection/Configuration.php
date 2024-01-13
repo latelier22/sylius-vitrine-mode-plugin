@@ -28,7 +28,7 @@ final class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder(): TreeBuilder
     {
-        $treeBuilder = new TreeBuilder('latelier22_catalog_mode');
+        $treeBuilder = new TreeBuilder('latelier22_vitrine_mode');
         $rootNode = $treeBuilder->getRootNode();
 
         return $treeBuilder;

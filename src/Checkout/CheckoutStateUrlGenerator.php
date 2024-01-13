@@ -46,7 +46,7 @@ class CheckoutStateUrlGenerator implements CheckoutStateUrlGeneratorInterface
         array $parameters = [],
         int $referenceType = self::ABSOLUTE_PATH,
     ): string {
-        return $this->catalogModeChecker->checker() ?
+        return $this->vitrineModeChecker->checker() ?
             $this->generateForCart($parameters, $referenceType) :
             $this->inner->generateForOrderCheckoutState($order, $parameters, $referenceType)
         ;

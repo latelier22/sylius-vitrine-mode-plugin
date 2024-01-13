@@ -17,22 +17,22 @@ trait VitrineModeCheckerTrait
     /**
      * @var VitrineModeCheckerInterface|null 
      */
-    protected ?VitrineModeCheckerInterface $catalogModeChecker = null;
+    protected ?VitrineModeCheckerInterface $vitrineModeChecker = null;
 
     /**
      * @return VitrineModeCheckerInterface|null
      */
     public function getVitrineModeChecker(): ?VitrineModeCheckerInterface
     {
-        return $this->catalogModeChecker;
+        return $this->vitrineModeChecker;
     }
 
     /**
-     * @param VitrineModeCheckerInterface|null $catalogModeChecker
+     * @param VitrineModeCheckerInterface|null $vitrineModeChecker
      */
-    public function setVitrineModeChecker(?VitrineModeCheckerInterface $catalogModeChecker): void
+    public function setVitrineModeChecker(?VitrineModeCheckerInterface $vitrineModeChecker): void
     {
-        $this->catalogModeChecker = $catalogModeChecker;
+        $this->vitrineModeChecker = $vitrineModeChecker;
     }   
     
 }

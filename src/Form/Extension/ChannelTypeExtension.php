@@ -34,8 +34,8 @@ class ChannelTypeExtension extends AbstractTypeExtension
      */
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
-        $builder->add('catalogMode', CheckboxType::class, [
-            'label'  => 'latelier22_catalog_mode.form.channel.catalog_mode',
+        $builder->add('vitrineMode', CheckboxType::class, [
+            'label'  => 'latelier22_vitrine_mode.form.channel.vitrine_mode',
             'required'  =>  false,
         ]);
     }
