@@ -1,4 +1,4 @@
-asdoria_catalog_mode:
+latelier22_vitrine_mode:
     order_item:
-        catalog_mode:
-            enabled: Le mode catalogue est activé pour ce canal
+        vitrine_mode:
+            enabled: Le mode vitrine est activé pour ce canal
