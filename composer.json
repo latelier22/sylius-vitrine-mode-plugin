@@ -82,6 +82,9 @@
         }
     },
     "autoload-dev": {
+        "psr-4": {
+            "Latelier22\\Tests\\SyliusVitrineModePlugin\\": "tests/"
+        },
         "classmap": [
             "tests/Application/Kernel.php"
         ]
